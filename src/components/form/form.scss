@@ -1,0 +1,82 @@
+.form-container {
+    animation: fadeIn 2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: RGB(245, 245, 245);
+    padding: 50px 0px;
+    input {
+        width: 50vh;
+        padding : 5px 20px;
+        font-size: 12px;
+        outline: none;
+        border: 1px solid #E7E7E7;
+        color : #E7E7E7;
+        transition: 0.5s ease-in-out;
+   
+    }
+}
+
+.form-message {
+    height: 200px;
+    resize: vertical; // Vous pouvez également utiliser "horizontal" pour une redimensionnement horizontal uniquement
+    
+}
+
+textarea {
+    width: 50vh;
+    padding : 15px 20px;
+    font-size: 12px;
+    height: 100px;
+    outline: none;
+    border: 1px solid #E7E7E7;
+    transition: 0.5s ease-in-out;
+}
+
+.button_submit {
+    width: 50vh;
+    padding : 5px 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+        background-color: RGB(52, 52, 52);  
+    /*     background-color: RGB(1, 17, 32);  */
+    border: 1px solid #E7E7E7;
+    color: white;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+::placeholder {
+    color : RGB(192, 192, 192)
+}
+
+input[type=text] {
+    color :RGB(149, 149, 149);
+ 
+}
+
+.underscore {
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.button_submit:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+input:focus , textarea:focus {
+    border: 1px solid #999799;
+  }
+
+  .hidden {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+

@@ -1,0 +1,93 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    margin-left: 50px;
+
+  }
+  
+  .carousel-button {
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .carousel-image {
+    width: 500px;
+    height: auto;
+
+  }
+  
+
+
+
+img.leftArrow {
+    background-color: white;
+    padding : 5px;
+    width: 50px;
+    height: 50px;
+        position : absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(20%, -50%);
+        border-radius: 35px;
+}
+
+img.leftArrow:hover {
+    background-color:#F7F7F7;
+    transition: background-color 0.3s ease-in-out;
+}
+
+img.rightArrow {
+    position: absolute;
+    padding : 5px;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    right: 0;
+    transform: translate(-20%, -50%) rotate(180deg);
+    background-color: white;
+    border-radius: 35px;
+ 
+  }
+  img.rightArrow:hover {
+    background-color:#F7F7F7;
+    transition: background-color 0.3s ease-in-out;
+   
+}
+
+
+  .carousel-dots {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-dots .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+  }
+  
+  .carousel-dots .dot.active {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    
+    
+
+  }
+  

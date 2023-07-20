@@ -1,0 +1,44 @@
+@keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+
+.nav_bar {
+  position: fixed; /* La barre de navigation reste fixée à l'écran */
+  top: 0; /* Place la barre de navigation en haut de l'écran */
+  left: 0; /* Place la barre de navigation à gauche de l'écran */
+  width: 100%;
+    display: flex;
+    gap : 50px;
+    justify-content: center;
+    z-index: 9999;
+     background-color: RGB(51, 51, 51); 
+  /*   background-color: RGB(1, 17, 32); */
+    padding: 0px 50px;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+   
+}
+
+.nav_bar li {
+    
+        cursor: pointer;
+        letter-spacing: 3px;
+        color: white;
+        padding: 20px 10px;
+    
+    
+}
+
+.nav_item:hover {
+  background-color: #f0f0f0; /* Couleur de fond au survol */
+  color: RGB(51, 51, 51); /* Couleur du texte au survol */
+  transition: 0.5s ease-in-out;
+}
+

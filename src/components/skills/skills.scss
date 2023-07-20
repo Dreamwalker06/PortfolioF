@@ -1,0 +1,54 @@
+.skills-container {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+.underscore {
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+
+.skills-text {
+    color : #999799;
+    width: 40%;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 50px;
+    
+
+}
+
+.cards_container_skills {
+    border: 1px solid black;
+    width: 70%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px); /* Trois colonnes de 300px */
+    gap: 60px; /* Espace entre les cartes */
+    margin-bottom: 50px;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+  }
+  
+  .cards_skills {
+    border: 1px solid red;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le contenu */
+
+    
+    img {
+      max-width: 30%;
+      max-height: 30%;
+    }
+  }
+  
+
+
+.skills-container span{ position:absolute; top:-100px;}

@@ -1,0 +1,64 @@
+.projets-container {
+    margin-top: 50px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+.underscore {
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+
+.projets-text {
+    color : #999799;
+    width: 40%;
+    text-align: center;
+    font-size: 26px;
+    
+
+}
+
+.projects_button_container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    button {     
+        width: 10vh;
+        padding : 0px;
+        border: none;
+        padding: 5px 0px;
+        font-size: 12px;
+        background-color: #F5F5F5;
+        letter-spacing: 1px;
+        color : #999799
+        
+        
+    }
+    button:hover {
+        cursor: pointer;
+        background-color: #333333;
+        color: #FFFFFF;
+        transition: 0.5s ease-out;
+    }
+    }
+
+ .cards-container {
+ display: flex;
+ gap : 30px;
+ 
+
+ }
+
+ .cards-container:hover {
+
+ }
+
+.projects_container {
+    position: relative;
+}
+
+.projects_container span { position:absolute; top:-100px;}
