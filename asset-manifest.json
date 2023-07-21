@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/PortfolioF/static/css/main.20411602.css",
-    "main.js": "/PortfolioF/static/js/main.ea98da6a.js",
-    "static/media/Kasa_composants.png": "/PortfolioF/static/media/Kasa_composants.e27538a62cf3331b9b91.png",
-    "static/media/Kasa_Fiche-Logement.png": "/PortfolioF/static/media/Kasa_Fiche-Logement.b23cf1a6c6125702a79e.png",
-    "static/media/Kasa_home.png": "/PortfolioF/static/media/Kasa_home.79754dc7252730e3a8c4.png",
+    "main.css": "/PortfolioF/static/css/main.dfc23f39.css",
+    "main.js": "/PortfolioF/static/js/main.798b29b1.js",
     "static/media/Booki.png": "/PortfolioF/static/media/Booki.f93adbf474232c6d4b5d.png",
-    "static/media/Kasa_A_Propos.png": "/PortfolioF/static/media/Kasa_A_Propos.e8e854c9bfccff974d8a.png",
+    "static/media/Grimoire_Intro.png": "/PortfolioF/static/media/Grimoire_Intro.66b0b51e8d50a5fc0bfa.png",
     "static/media/SophieBluel_1.webp": "/PortfolioF/static/media/SophieBluel_1.a71d766d0a16fd7fb13b.webp",
+    "static/media/Kasa_mockup.png": "/PortfolioF/static/media/Kasa_mockup.1e3c3d3b8d576519a7c1.png",
     "static/media/backstage.jpg": "/PortfolioF/static/media/backstage.aac5243ca1fd8041aa70.jpg",
+    "static/media/Nina_mockupR.png": "/PortfolioF/static/media/Nina_mockupR.07477bfd80e1743e72d4.png",
     "static/media/LOGO-Kasa.webp": "/PortfolioF/static/media/LOGO-Kasa.bf7dd84884e5cd91b7e0.webp",
     "static/media/MonVieuxGrimoire_1.webp": "/PortfolioF/static/media/MonVieuxGrimoire_1.d1af40dfdb66287d056d.webp",
     "static/media/Dignitas_champion_2.jpg": "/PortfolioF/static/media/Dignitas_champion_2.7f4ee32c87ab2cda8d61.jpg",
     "static/media/Dignitas_champion_3.jpg": "/PortfolioF/static/media/Dignitas_champion_3.edcd2151b7d09becaf54.jpg",
+    "static/media/Booki_mockupR.png": "/PortfolioF/static/media/Booki_mockupR.6b012a37221dd1d886cb.png",
+    "static/media/cv.pdf": "/PortfolioF/static/media/cv.29c48f5edd88615afd36.pdf",
     "static/media/Trophee.jpg": "/PortfolioF/static/media/Trophee.c449b2ae1e8ff4c770ca.jpg",
     "static/media/conference_dignitas.jpg": "/PortfolioF/static/media/conference_dignitas.a473c5a906bf0aaf271e.jpg",
     "static/media/Dignitas_champion.jpg": "/PortfolioF/static/media/Dignitas_champion.fd9e92247f128b191c40.jpg",
     "static/media/Nina_carducci.webp": "/PortfolioF/static/media/Nina_carducci.c715a0d7e1194ab419c0.webp",
     "static/media/JayPL2.jpg": "/PortfolioF/static/media/JayPL2.d5e33699fd4b894f1a4a.jpg",
+    "static/media/Sophie_Intro.png": "/PortfolioF/static/media/Sophie_Intro.c2fb0507fc4f7e882745.png",
     "static/media/HTML5_1Color_Black.svg": "/PortfolioF/static/media/HTML5_1Color_Black.32e08942af64ba22f265488f000a5f8b.svg",
     "index.html": "/PortfolioF/index.html",
-    "main.20411602.css.map": "/PortfolioF/static/css/main.20411602.css.map",
-    "main.ea98da6a.js.map": "/PortfolioF/static/js/main.ea98da6a.js.map"
+    "main.dfc23f39.css.map": "/PortfolioF/static/css/main.dfc23f39.css.map",
+    "main.798b29b1.js.map": "/PortfolioF/static/js/main.798b29b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.20411602.css",
-    "static/js/main.ea98da6a.js"
+    "static/css/main.dfc23f39.css",
+    "static/js/main.798b29b1.js"
   ]
 }
