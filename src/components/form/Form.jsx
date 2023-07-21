@@ -1,8 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import "./form.scss";
 import SousTitre from '../sousTitre/SousTitre';
+import emailjs from '@emailjs/browser';
 
 function Form() {
+  const form = useRef();
+  const [emailSent, setEmailSent] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5qb9pqq', 'template_9zoo4iq', form.current, 'YjScpGVP2qukCp4K6')
+      .then((result) => {
+          console.log(result.text);
+          setEmailSent(true);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -23,13 +38,14 @@ function Form() {
   }, []);
     return (
 <div id="contact">
-      <form  className='form-container hidden'>
+      <form ref={form} onSubmit={sendEmail} className='form-container hidden'>
         <SousTitre title="CONTACT"/>
         <p className='underscore'>______</p>
-          <input type="text" required placeholder="Nom"/>
-          <input type="text" required placeholder="Adresse e-mail"/>
-          <textarea placeholder="Votre message" ></textarea>
-          <button className="button_submit" type="submit">ME CONTACTER</button>
+          <input type="text" name="user_name" required placeholder="Nom"/>
+          <input type="text" name="user_email" required placeholder="Adresse e-mail"/>
+          <textarea name="message" placeholder="Votre message" ></textarea>
+          <button className="button_submit" type="submit" value="Send">ME CONTACTER</button>
+          {emailSent && <p>Votre email a été envoyé avec succès !</p>}
 
  
       </form>

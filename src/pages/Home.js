@@ -15,7 +15,7 @@ const Home = () => {
       <Presentation />
       <Projects />
 
-      <Skills />
+      {/*       <Skills /> */}
 
       <Form />
       <ScrollToTop />

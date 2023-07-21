@@ -1,6 +1,22 @@
 import "./header.scss";
+import CV from "../../assets/data/cv.pdf"
 
 const Header = () => {
+  const handleDownload = () => {
+    // Chemin relatif vers le fichier que vous souhaitez télécharger
+    const filePath = CV
+
+    // Crée un lien HTML
+    const link = document.createElement('a');
+    link.href = filePath;
+
+    // Spécifie le nom du fichier lorsqu'il est téléchargé
+    link.download = 'CV de Jerome TRINH';
+
+    // Simule un clic sur le lien pour déclencher le téléchargement
+    link.click();
+  };
+
   const scrollToID = (elementId) => {
     const element = document.getElementById(elementId);
     if (element) {
@@ -13,7 +29,7 @@ const Header = () => {
       <div>
         <ul className="nav_bar">
         
-            <li className="nav_item">Accueil</li>
+            <li className="nav_item" onClick={() => scrollToID('presentation')}>Accueil</li>
       
             <li className="nav_item" onClick={() => scrollToID('presentation')}>Présentation</li>
      
@@ -26,6 +42,10 @@ const Header = () => {
           <li className="nav_item" onClick={() => scrollToID('contact')}>
             Contact
           </li>
+          <li className="nav_item" onClick={handleDownload} >
+            Mon CV
+          </li>
+
         </ul>
       </div>
     </header>

@@ -34,7 +34,8 @@
         font-size: 12px;
         background-color: #F5F5F5;
         letter-spacing: 1px;
-        color : #999799
+        color : #999799;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         
         
     }
@@ -62,3 +63,12 @@
 }
 
 .projects_container span { position:absolute; top:-100px;}
+
+
+
+
+@media (max-width: 500px) {
+    .projects_button_container {
+        width: 70%;
+    }
+}

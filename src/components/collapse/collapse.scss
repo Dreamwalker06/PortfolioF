@@ -48,6 +48,7 @@ img.logo_click {
     width: 72vw;
     height: 100vh;
     border-radius: 15px;
+    overflow: auto;
     
   }
 
@@ -59,3 +60,27 @@ img.logo_click {
     transition-duration: 0.5s; /* Durée de transition plus courte pour la fermeture */
   }
   
+  @media (max-width: 1070px) {
+    .collapse-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .collapse_container {
+      
+    }
+
+    .collapse-content.expanded {
+      max-height: 2000px;
+    }
+    .presentation-container img { 
+    width: 100%;
+     margin-bottom: 50px;
+     margin-top: 20px;
+    }
+
+    .more_about_me {
+      margin-top: 50px;
+      width: 70%;
+     
+    }
+  }
