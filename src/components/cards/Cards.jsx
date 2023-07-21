@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './cards.scss';
 
 
-const Cards = ({ image, title, mission, technology, technology2, technology3, modalImages, introductionImage, textHover }) => {
+const Cards = ({ image, title, mission, technology, technology2, technology3, modalImage1, modalImage2, modalImage3, introductionImage, textHover }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const modalRef = useRef(null);
 
@@ -32,8 +32,13 @@ const Cards = ({ image, title, mission, technology, technology2, technology3, mo
  <div className='cards_container' onClick={openModal}>
   <img src={image} />
   <div className="cards_hover_text hover-text">
-  <p className='hover-text-intro'>{textHover}</p>
-  <p className='hover-text-more'>En savoir plus</p>
+  <p className='hover-text-intro'>{textHover.split('\n').map((paragraph, index) => (
+    <React.Fragment key={index}>
+      {paragraph}
+      <br/>
+    </React.Fragment>
+  ))}</p>
+  <p className='hover-text-more'>En savoir plus </p>
   </div>
 </div>
 
@@ -54,6 +59,7 @@ const Cards = ({ image, title, mission, technology, technology2, technology3, mo
     </React.Fragment>
   ))}
 </p>
+
             <p className='texte_modal'> Technologie utilisées:</p>
             <div className="button_modal_container">
             {technology && <button className='button_technology_modal'>{technology}</button>}
@@ -64,7 +70,9 @@ const Cards = ({ image, title, mission, technology, technology2, technology3, mo
             </div>
             <div className="modal_gallery">
            
-            <img src={modalImages}/>
+            <img src={modalImage1}loading="lazy"  />
+            <img src={modalImage2} loading="lazy" />
+            <img src={modalImage3}loading="lazy"  /> 
             </div>
           
           </div>

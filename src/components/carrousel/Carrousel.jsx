@@ -29,16 +29,9 @@ const Carrousel = ({ images }) => {
   return (
     <div className="carousel" >
       <img className="carousel-image" src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} />
-
-      
-        <img className="leftArrow" src={leftArrow} alt="Left Arrow" onClick={handlePrevSlide} />
-      
-
-      
-        <img className="rightArrow" src={leftArrow} alt="Right Arrow" onClick={handleNextSlide}/>
-     
-
-      <div className="carousel-dots">
+ <img className="leftArrow" src={leftArrow} alt="Left Arrow" onClick={handlePrevSlide} />
+      <img className="rightArrow" src={leftArrow} alt="Right Arrow" onClick={handleNextSlide}/>
+     <div className="carousel-dots">
         {images.map((image, index) => (
           <div
             key={index}

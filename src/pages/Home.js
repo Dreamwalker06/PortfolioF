@@ -10,6 +10,15 @@ import ScrollToTop from "../components/scrollToTop/ScrollToTop";
 const Home = () => {
   return (
     <div>
+      <p
+        style={{
+          marginTop: "100px",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        En cours de développement
+      </p>
       <Header />
 
       <Presentation />

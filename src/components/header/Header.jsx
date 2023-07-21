@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <header>
       <div>
-        <ul className="nav_bar">
+        <ul className="nav_bar" >
         
             <li className="nav_item" onClick={() => scrollToID('presentation')}>Accueil</li>
       
@@ -36,9 +36,9 @@ const Header = () => {
           <li className="nav_item" onClick={() => scrollToID('projects')}>
             Réalisation
           </li>
-          <li className="nav_item" onClick={() => scrollToID('skills')}>
+      {/*     <li className="nav_item" onClick={() => scrollToID('skills')}>
             Compétences
-          </li>
+          </li> */}
           <li className="nav_item" onClick={() => scrollToID('contact')}>
             Contact
           </li>
