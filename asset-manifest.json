@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/PortfolioF/static/css/main.dfc23f39.css",
-    "main.js": "/PortfolioF/static/js/main.798b29b1.js",
+    "main.css": "/PortfolioF/static/css/main.0fb43ffc.css",
+    "main.js": "/PortfolioF/static/js/main.a4ddc44e.js",
+    "static/media/Kasa_composants.png": "/PortfolioF/static/media/Kasa_composants.e27538a62cf3331b9b91.png",
+    "static/media/Kasa_Fiche-Logement.png": "/PortfolioF/static/media/Kasa_Fiche-Logement.b23cf1a6c6125702a79e.png",
     "static/media/Booki.png": "/PortfolioF/static/media/Booki.f93adbf474232c6d4b5d.png",
+    "static/media/Kasa_A_Propos.png": "/PortfolioF/static/media/Kasa_A_Propos.e8e854c9bfccff974d8a.png",
     "static/media/Grimoire_Intro.png": "/PortfolioF/static/media/Grimoire_Intro.66b0b51e8d50a5fc0bfa.png",
     "static/media/SophieBluel_1.webp": "/PortfolioF/static/media/SophieBluel_1.a71d766d0a16fd7fb13b.webp",
     "static/media/Kasa_mockup.png": "/PortfolioF/static/media/Kasa_mockup.1e3c3d3b8d576519a7c1.png",
@@ -18,15 +21,21 @@
     "static/media/conference_dignitas.jpg": "/PortfolioF/static/media/conference_dignitas.a473c5a906bf0aaf271e.jpg",
     "static/media/Dignitas_champion.jpg": "/PortfolioF/static/media/Dignitas_champion.fd9e92247f128b191c40.jpg",
     "static/media/Nina_carducci.webp": "/PortfolioF/static/media/Nina_carducci.c715a0d7e1194ab419c0.webp",
+    "static/media/SophieBluel_2.webp": "/PortfolioF/static/media/SophieBluel_2.30013ce71424e3128419.webp",
+    "static/media/Booki_modal_2.webp": "/PortfolioF/static/media/Booki_modal_2.7a4284978117520eef82.webp",
+    "static/media/Grimoire2.webp": "/PortfolioF/static/media/Grimoire2.779654890c01e62d5520.webp",
+    "static/media/SophieBluel_3.webp": "/PortfolioF/static/media/SophieBluel_3.bc20a0f2d3a6ab235041.webp",
     "static/media/JayPL2.jpg": "/PortfolioF/static/media/JayPL2.d5e33699fd4b894f1a4a.jpg",
     "static/media/Sophie_Intro.png": "/PortfolioF/static/media/Sophie_Intro.c2fb0507fc4f7e882745.png",
+    "static/media/Grimoire1.webp": "/PortfolioF/static/media/Grimoire1.b49c50f3ac64fd8c64f4.webp",
+    "static/media/Booki_modal_1.webp": "/PortfolioF/static/media/Booki_modal_1.04db40183c4ba05d18b0.webp",
     "static/media/HTML5_1Color_Black.svg": "/PortfolioF/static/media/HTML5_1Color_Black.32e08942af64ba22f265488f000a5f8b.svg",
     "index.html": "/PortfolioF/index.html",
-    "main.dfc23f39.css.map": "/PortfolioF/static/css/main.dfc23f39.css.map",
-    "main.798b29b1.js.map": "/PortfolioF/static/js/main.798b29b1.js.map"
+    "main.0fb43ffc.css.map": "/PortfolioF/static/css/main.0fb43ffc.css.map",
+    "main.a4ddc44e.js.map": "/PortfolioF/static/js/main.a4ddc44e.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfc23f39.css",
-    "static/js/main.798b29b1.js"
+    "static/css/main.0fb43ffc.css",
+    "static/js/main.a4ddc44e.js"
   ]
 }
