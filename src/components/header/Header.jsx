@@ -1,5 +1,5 @@
 import "./header.scss";
-import CV from "../../assets/data/cv.pdf"
+import CV from "../../assets/data/CV_TRINH_Jerome.pdf"
 
 const Header = () => {
   const handleDownload = () => {
