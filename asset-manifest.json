@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioF/static/css/main.0fb43ffc.css",
-    "main.js": "/PortfolioF/static/js/main.a4ddc44e.js",
+    "main.js": "/PortfolioF/static/js/main.abceec0f.js",
     "static/media/Kasa_composants.png": "/PortfolioF/static/media/Kasa_composants.e27538a62cf3331b9b91.png",
     "static/media/Kasa_Fiche-Logement.png": "/PortfolioF/static/media/Kasa_Fiche-Logement.b23cf1a6c6125702a79e.png",
     "static/media/Booki.png": "/PortfolioF/static/media/Booki.f93adbf474232c6d4b5d.png",
@@ -16,7 +16,7 @@
     "static/media/Dignitas_champion_2.jpg": "/PortfolioF/static/media/Dignitas_champion_2.7f4ee32c87ab2cda8d61.jpg",
     "static/media/Dignitas_champion_3.jpg": "/PortfolioF/static/media/Dignitas_champion_3.edcd2151b7d09becaf54.jpg",
     "static/media/Booki_mockupR.png": "/PortfolioF/static/media/Booki_mockupR.6b012a37221dd1d886cb.png",
-    "static/media/cv.pdf": "/PortfolioF/static/media/cv.29c48f5edd88615afd36.pdf",
+    "static/media/CV_TRINH_Jerome.pdf": "/PortfolioF/static/media/CV_TRINH_Jerome.0b6cef508e2bce351ecb.pdf",
     "static/media/Trophee.jpg": "/PortfolioF/static/media/Trophee.c449b2ae1e8ff4c770ca.jpg",
     "static/media/conference_dignitas.jpg": "/PortfolioF/static/media/conference_dignitas.a473c5a906bf0aaf271e.jpg",
     "static/media/Dignitas_champion.jpg": "/PortfolioF/static/media/Dignitas_champion.fd9e92247f128b191c40.jpg",
@@ -32,10 +32,10 @@
     "static/media/HTML5_1Color_Black.svg": "/PortfolioF/static/media/HTML5_1Color_Black.32e08942af64ba22f265488f000a5f8b.svg",
     "index.html": "/PortfolioF/index.html",
     "main.0fb43ffc.css.map": "/PortfolioF/static/css/main.0fb43ffc.css.map",
-    "main.a4ddc44e.js.map": "/PortfolioF/static/js/main.a4ddc44e.js.map"
+    "main.abceec0f.js.map": "/PortfolioF/static/js/main.abceec0f.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb43ffc.css",
-    "static/js/main.a4ddc44e.js"
+    "static/js/main.abceec0f.js"
   ]
 }
