@@ -69,7 +69,10 @@ const Projects = () => {
     textHover={`Kasa - Découverte de Paradis.\n 
     Réalisation du front-end.`}
     technologies={["React"]}
-    modalImage1={Kasa1} modalImage2={Kasa2} modalImage3={Kasa3} />
+    modalImage1={Kasa1} modalImage2={Kasa2} modalImage3={Kasa3}
+    link_projet="https://dreamwalker06.github.io/P6Final/"
+    buttonClass="button_kasa_visit"
+    externalLink="https://dreamwalker06.github.io/P6Final/" />
   )}
   {filterCards(<Cards image={Grimoire} technologies={["Node"]} />) && (
     <Cards title ="Mon Vieux Grimoire - Réalisation du back-end" 
@@ -79,7 +82,9 @@ const Projects = () => {
      introductionImage={GrimoireIntro}
      textHover={`Mon Vieux Grimoire.\n\nRéalisation du back-end`}
      image={Grimoire} technologies={["Node"]} 
-     modalImage1={Grimoire1} modalImage2={Grimoire2}/>
+     modalImage1={Grimoire1} modalImage2={Grimoire2}
+     buttonClass="button_grimoire_visit" />
+     
   )}
     {filterCards(<Cards image={SophieBluel} technologies={["Javascript"]} />) && (
     <Cards title ="Sophie Bluel - Réalisation du front-end" 
@@ -89,7 +94,9 @@ const Projects = () => {
     introductionImage={SophieIntro}
     textHover={`Sophie Bluel - Architecte.\n\nImplémentation de fonctionnalités`}
     image={SophieBluel} technologies={["Javascript"]}
-    modalImage1={Sophie1} modalImage2={Sophie2} />
+    modalImage1={Sophie1} modalImage2={Sophie2}
+    buttonClass="button_sophie_visit"
+     /> 
     
  )}
       {filterCards(<Cards image={Booki}  />) && (
@@ -100,7 +107,10 @@ const Projects = () => {
     introductionImage={BookiMockup}
         textHover={`Booki - Agence de location.\n\nLanding Page & Responsive Design`}
     image={Booki}
-    modalImage1={Booki1} modalImage2={Booki2} />
+    modalImage1={Booki1} modalImage2={Booki2} 
+    link_projet="https://dreamwalker06.github.io/p2final/"
+    buttonClass="button_booki_visit" 
+    externalLink="https://dreamwalker06.github.io/p2final/"/>
       )}
           {filterCards(<Cards image={Nina}  />) && (
     <Cards title ="Nina Carducci - Optimisation du site" 
@@ -110,7 +120,9 @@ const Projects = () => {
     introductionImage={NinaMockup}
     textHover={`Ninca Carducci - Photographe.\n
      Optimisation & Référencement.`}
-    image={Nina} />
+    image={Nina}
+    buttonClass="button_nina_visit" 
+    externalLink="https://dreamwalker06.github.io/P5F/" />
       )}
 </div>
       </div>

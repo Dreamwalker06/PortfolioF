@@ -8,7 +8,9 @@ const Header = () => {
   const handleToggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
   };
-
+  const handleCollapse = () => {
+    setIsCollapsed(false);
+  };
   const handleDownload = () => {
     // Chemin relatif vers le fichier que vous souhaitez télécharger
     const filePath = CV
@@ -74,16 +76,34 @@ const Header = () => {
           <li className="nav_item" onClick={() => scrollToID('presentation')}>
             ACCUEIL
           </li>
-          <li className="nav_item" onClick={() => scrollToID('presentation')}>
-            PRESENTATION
-          </li>
-          <li className="nav_item" onClick={() => scrollToID('projects')}>
-            REALISATION
-          </li>
+ <li
+  className="nav_item"
+  onClick={() => {
+    scrollToID('presentation');
+    handleCollapse();
+  }}
+>
+  PRESENTATION
+</li>
+          <li
+  className="nav_item"
+  onClick={() => {
+    scrollToID('projects');
+    handleCollapse();
+  }}
+>
+  REALISATION
+</li>
 
-          <li className="nav_item" onClick={() => scrollToID('contact')}>
-            CONTACT
-          </li>
+<li
+  className="nav_item"
+  onClick={() => {
+    scrollToID('contact');
+    handleCollapse();
+  }}
+>
+  CONTACT
+</li>
           <li className="nav_item" onClick={handleDownload}>
             MON CV
           </li>

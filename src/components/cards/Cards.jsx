@@ -2,7 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import './cards.scss';
 
 
-const Cards = ({ image, title, mission, technology, technology2, technology3, modalImage1, modalImage2, modalImage3, introductionImage, textHover }) => {
+
+const Cards = ({ externalLink, buttonClass, image, link_projet, title, mission, technology, technology2, technology3, modalImage1, modalImage2, modalImage3, introductionImage, textHover }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const modalRef = useRef(null);
 
@@ -47,7 +48,9 @@ const Cards = ({ image, title, mission, technology, technology2, technology3, mo
           <div className='modal_content' ref={modalRef}>
           <button className="close-button" onClick={closeModal}>X</button>
           <div className="introduction_modal">
+          <a href={link_projet}>
                 <img src ={introductionImage} />
+                </a>
             <div className="introduction_texte_modal">
             <h2 className='title_introduction_modal'>{title}</h2>
             <p className='texte_modal'> Année: 2023</p>
@@ -66,13 +69,19 @@ const Cards = ({ image, title, mission, technology, technology2, technology3, mo
                 {technology2 && <button className='button_technology_modal'>{technology2}</button>}
                 {technology3 && <button className='button_technology_modal'>{technology3}</button>}
              </div>
+              {/* ... (rest of the code remains unchanged) */}
+              {externalLink && (
+                <button className={`button_visit_site ${buttonClass}`} onClick={() => window.open(externalLink, "_blank")}>
+                  VISITER LE SITE
+                </button>
+              )}
             </div>
             </div>
             <div className="modal_gallery">
            
-            <img src={modalImage1}loading="lazy"  />
-            <img src={modalImage2} loading="lazy" />
-            <img src={modalImage3}loading="lazy"  /> 
+            <img src={modalImage1}loading="lazy" alt = ""  />
+            <img src={modalImage2} loading="lazy" alt = "" />
+            <img src={modalImage3}loading="lazy"  alt = "" /> 
             </div>
           
           </div>

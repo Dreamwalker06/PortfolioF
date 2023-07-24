@@ -47,7 +47,8 @@
         color : #999799;
         align-self: center;
         font-size: 20px;
-      
+        padding-left: 20px;
+        text-align: left;
     
 }
 
@@ -113,6 +114,9 @@
     width: 65%;
   }
 }
+
+@media (max-width: 750px) {
+}
   @media (max-width: 500px) {
     .presentation-text {
       width: 80%;
@@ -123,6 +127,7 @@
     .collapse_container {
       width: 100%;
     }   
+    
    } 
   
   
