@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioF/static/css/main.07e7e264.css",
-    "main.js": "/PortfolioF/static/js/main.f0f5c008.js",
+    "main.css": "/PortfolioF/static/css/main.2b18a00c.css",
+    "main.js": "/PortfolioF/static/js/main.db65959e.js",
     "static/media/Kasa_composants.png": "/PortfolioF/static/media/Kasa_composants.e27538a62cf3331b9b91.png",
     "static/media/Kasa_Fiche-Logement.png": "/PortfolioF/static/media/Kasa_Fiche-Logement.b23cf1a6c6125702a79e.png",
     "static/media/Booki.png": "/PortfolioF/static/media/Booki.f93adbf474232c6d4b5d.png",
@@ -31,11 +31,11 @@
     "static/media/Booki_modal_1.webp": "/PortfolioF/static/media/Booki_modal_1.04db40183c4ba05d18b0.webp",
     "static/media/HTML5_1Color_Black.svg": "/PortfolioF/static/media/HTML5_1Color_Black.32e08942af64ba22f265488f000a5f8b.svg",
     "index.html": "/PortfolioF/index.html",
-    "main.07e7e264.css.map": "/PortfolioF/static/css/main.07e7e264.css.map",
-    "main.f0f5c008.js.map": "/PortfolioF/static/js/main.f0f5c008.js.map"
+    "main.2b18a00c.css.map": "/PortfolioF/static/css/main.2b18a00c.css.map",
+    "main.db65959e.js.map": "/PortfolioF/static/js/main.db65959e.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e7e264.css",
-    "static/js/main.f0f5c008.js"
+    "static/css/main.2b18a00c.css",
+    "static/js/main.db65959e.js"
   ]
 }
