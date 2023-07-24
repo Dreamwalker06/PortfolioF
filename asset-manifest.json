@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioF/static/css/main.2b18a00c.css",
-    "main.js": "/PortfolioF/static/js/main.db65959e.js",
+    "main.js": "/PortfolioF/static/js/main.d0ceb680.js",
     "static/media/Kasa_composants.png": "/PortfolioF/static/media/Kasa_composants.e27538a62cf3331b9b91.png",
     "static/media/Kasa_Fiche-Logement.png": "/PortfolioF/static/media/Kasa_Fiche-Logement.b23cf1a6c6125702a79e.png",
     "static/media/Booki.png": "/PortfolioF/static/media/Booki.f93adbf474232c6d4b5d.png",
@@ -32,10 +32,10 @@
     "static/media/HTML5_1Color_Black.svg": "/PortfolioF/static/media/HTML5_1Color_Black.32e08942af64ba22f265488f000a5f8b.svg",
     "index.html": "/PortfolioF/index.html",
     "main.2b18a00c.css.map": "/PortfolioF/static/css/main.2b18a00c.css.map",
-    "main.db65959e.js.map": "/PortfolioF/static/js/main.db65959e.js.map"
+    "main.d0ceb680.js.map": "/PortfolioF/static/js/main.d0ceb680.js.map"
   },
   "entrypoints": [
     "static/css/main.2b18a00c.css",
-    "static/js/main.db65959e.js"
+    "static/js/main.d0ceb680.js"
   ]
 }
