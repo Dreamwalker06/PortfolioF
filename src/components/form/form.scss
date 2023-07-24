@@ -33,6 +33,7 @@ textarea {
     outline: none;
     border: 1px solid #E7E7E7;
     transition: 0.5s ease-in-out;
+    color : RGB(149, 149, 149);
 }
 
 .button_submit {
@@ -81,3 +82,26 @@ input:focus , textarea:focus {
     transition: opacity 1.5s;
 }
 
+.form_email_sent {
+    border: 1px solid black;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #E8F1CE;
+}
+
+@media (max-width: 500px) {
+    .form-container input {
+        width: 80%;
+    }
+
+    .form-container textarea {
+        width: 80%;
+    }
+
+    .form-container button {
+        width: 80%;
+    }
+
+}

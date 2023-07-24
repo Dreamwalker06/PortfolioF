@@ -45,7 +45,7 @@ function Form() {
           <input type="text" name="user_email" required placeholder="Adresse e-mail"/>
           <textarea name="message" placeholder="Votre message" ></textarea>
           <button className="button_submit" type="submit" value="Send">ME CONTACTER</button>
-          {emailSent && <p>Votre email a été envoyé avec succès !</p>}
+          {emailSent && <p className='form_email_sent'>Votre email a été envoyé avec succès !</p>}
 
  
       </form>

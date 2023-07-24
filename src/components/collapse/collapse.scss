@@ -3,7 +3,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
- width: 80%;
+
  flex-direction: column;
  text-align: center;
  button {
@@ -53,6 +53,7 @@ img.logo_click {
   }
 
   .collapse-content.expanded {
+    overflow: auto;
     max-height: 600px; /* Réglez la hauteur maximale souhaitée lorsque le collapsible est ouvert */
   }
 
@@ -71,7 +72,7 @@ img.logo_click {
     }
 
     .collapse-content.expanded {
-      max-height: 2000px;
+
     }
     .presentation-container img { 
     width: 100%;
@@ -80,8 +81,49 @@ img.logo_click {
     }
 
     .more_about_me {
-      margin-top: 50px;
-      width: 70%;
+      margin-top: 500px;
+      width: 85%;
      
+    }
+  }
+
+  @media (max-width:1300px) {
+  
+    .more_about_me {
+      margin-top: 200px;
+   
+  }
+}
+
+@media (max-width:1080px) {
+  
+  .more_about_me {
+    margin-top: 500px;
+ 
+}
+}
+  @media (max-width: 750px) {
+    .more_about_me {
+      margin-top: 700px;
+      width: 85%;
+     
+    }
+  }
+
+  @media (max-width: 500px) {
+
+      .more_about_me {
+        margin-top: 700px;
+        width: 85%;
+    } 
+    .collapse-content {
+      border-radius: 0px;
+      width: 100%;
+    }
+    img.carousel-image {
+      border-radius: 0px;
+    }
+    .presentation-container img {
+      height: 350px;
     }
   }

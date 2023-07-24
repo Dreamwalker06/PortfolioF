@@ -10,6 +10,8 @@ import ScrollToTop from "../components/scrollToTop/ScrollToTop";
 const Home = () => {
   return (
     <div>
+      <Header />
+
       <p
         style={{
           marginTop: "100px",
@@ -19,7 +21,6 @@ const Home = () => {
       >
         En cours de développement
       </p>
-      <Header />
 
       <Presentation />
       <Projects />

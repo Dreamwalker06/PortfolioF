@@ -85,4 +85,20 @@ img.rightArrow {
     
 
   }
+
+  @media (max-width: 1070px) {
+    .carousel {
+      width: 80%;
+      margin-right: 0px;
+      margin-left: 0px;
   
+    }
+  }
+
+  @media (max-width: 750px) {
+    .carousel {
+      width: 100%;
+ 
+  
+    }
+  }

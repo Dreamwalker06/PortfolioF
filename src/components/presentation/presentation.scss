@@ -35,6 +35,11 @@
     font-style: italic;
 }
 
+.collapse-content span {
+  color: #383838;
+    font-style: italic;
+}
+
 
 .more_about_me {
     
@@ -102,4 +107,23 @@
       opacity: 1;
     }
   }
+  
+@media (max-width: 1080px) {
+  .presentation-text{
+    width: 65%;
+  }
+}
+  @media (max-width: 500px) {
+    .presentation-text {
+      width: 80%;
+    }
+    .collapse-content.expanded {
+      width: 100%;
+    }
+    .collapse_container {
+      width: 100%;
+    }   
+   } 
+  
+  
   
