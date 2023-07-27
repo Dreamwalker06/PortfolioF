@@ -38,3 +38,6 @@ body {
   scroll-behavior: smooth;
 }
 
+:root {
+  --main-bg-color: #021825;
+}

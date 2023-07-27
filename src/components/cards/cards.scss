@@ -79,11 +79,13 @@ transform: translate(0px, -20px);
     flex-wrap: wrap;
     width: 80%;
     justify-content: center;
+    
 
   }
   .card-row .cards {
     flex-basis: calc(33.33% - 20px); /* 33.33% pour trois cartes par ligne */
     margin: 10px;
+    
   }  
 
   

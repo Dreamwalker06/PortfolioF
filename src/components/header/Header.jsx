@@ -1,9 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './header.scss';
 import CV from '../../assets/data/CV_TRINH_Jerome.pdf';
 
 const Header = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [activeSection, setActiveSection] = useState(null);
+  const sectionRefs = {
+    // Create refs for each section you want to observe
+    home: useRef(null),
+    about: useRef(null),
+    projects: useRef(null),
+    contact: useRef(null),
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Find the section that is currently in the viewport
+      for (const section in sectionRefs) {
+        const ref = sectionRefs[section];
+        if (ref.current) {
+          const rect = ref.current.getBoundingClientRect();
+          if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+            setActiveSection(section);
+          }
+        }
+      }
+    };
+
+    // Add the scroll event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove the scroll event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleToggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
@@ -44,9 +75,10 @@ const Header = () => {
           <li className="nav_item" onClick={() => scrollToID('presentation')}>
             Présentation
           </li>
-          <li className="nav_item" onClick={() => scrollToID('projects')}>
-            Réalisation
-          </li>
+          <li className={`nav_item ${activeSection === "projects" ? "active" : ""}`} onClick={() => scrollToID("projects")}>
+  Réalisation
+</li>
+
           {/* Add the closing curly brace here */}
           {/* <li className="nav_item" onClick={() => scrollToID('skills')}>
             Compétences

@@ -5,16 +5,16 @@ import Kasa from "../../assets/images/LOGO-Kasa.webp"
 import React, { useState} from "react";
 import Grimoire from "../../assets/images/MonVieuxGrimoire_1.webp"
 import SophieBluel from "../../assets/images/SophieBluel_1.webp"
-import Booki from "../../assets/images/Booki.png"
+import Booki from "../../assets/images/booki.webp"
 import Nina from "../../assets/images/Nina_carducci.webp"
-import BookiMockup from "../../assets/images/Booki_mockupR.png"
-import NinaMockup from "../../assets/images/Nina_mockupR.png"
-import KasaMockup from "../../assets/images/Kasa_mockup.png"
-import SophieIntro from "../../assets/images/Sophie_Intro.png"
-import GrimoireIntro from "../../assets/images/Grimoire_Intro.png"
-import Kasa1 from "../../assets/images/Kasa_Fiche-Logement.png"
-import Kasa2 from "../../assets/images/Kasa_A_Propos.png"
-import Kasa3 from "../../assets/images/Kasa_composants.png"
+import BookiMockup from "../../assets/images/booki-mockupr.webp"
+import NinaMockup from "../../assets/images/nina-mockupr.webp"
+import KasaMockup from "../../assets/images/kasa-mockup.webp"
+import SophieIntro from "../../assets/images/sophie-intro.webp"
+import GrimoireIntro from "../../assets/images/grimoire-intro.webp"
+import Kasa1 from "../../assets/images/Kasa_Fiche-Logement.webp"
+import Kasa2 from "../../assets/images/kasa-a-propos.webp"
+import Kasa3 from "../../assets/images/kasa-composants.webp"
 import Sophie1 from "../../assets/images/SophieBluel_2.webp"
 import Sophie2 from "../../assets/images/SophieBluel_3.webp"
 import Grimoire1 from  "../../assets/images/Grimoire1.webp"
@@ -23,7 +23,11 @@ import Booki1 from "../../assets/images/Booki_modal_1.webp"
 import Booki2 from "../../assets/images/Booki_modal_2.webp"
  
 const Projects = () => {
+
+  
   const [filter, setFilter] = useState("Tous");
+
+  const cardContainerClass = `cards-container card-row ${filter}-filter`;
 
   const handleFilter = (newFilter) => {
     setFilter(newFilter);

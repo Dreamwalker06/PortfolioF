@@ -79,9 +79,9 @@ const Cards = ({ externalLink, buttonClass, image, link_projet, title, mission, 
             </div>
             <div className="modal_gallery">
            
-            <img src={modalImage1}loading="lazy" alt = ""  />
-            <img src={modalImage2} loading="lazy" alt = "" />
-            <img src={modalImage3}loading="lazy"  alt = "" /> 
+            <img src={modalImage1}  alt = ""  />
+            <img src={modalImage2}  alt = "" />
+            <img src={modalImage3}  alt = "" /> 
             </div>
           
           </div>

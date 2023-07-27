@@ -3,13 +3,13 @@ import "./presentation.scss";
 import SousTitre from '../sousTitre/SousTitre';
 import Collapse from '../collapse/Collapse';
 import Carrousel from '../carrousel/Carrousel'; 
-import image1 from "../../assets/images/Dignitas_champion.jpg";
-import image2 from "../../assets/images/Dignitas_champion_2.jpg";
-import image3 from "../../assets/images/JayPL2.jpg"
-import image4 from "../../assets/images/Dignitas_champion_3.jpg"
-import image5 from "../../assets/images/Trophee.jpg"
-import image6 from "../../assets/images/backstage.jpg"
-import image7 from "../../assets/images/conference_dignitas.jpg"
+import image1 from "../../assets/images/Dignitas_champion.webp";
+import image2 from "../../assets/images/Dignitas_champion_2.webp";
+import image3 from "../../assets/images/JayPL2.webp"
+import image4 from "../../assets/images/Dignitas_champion_3.webp"
+import image5 from "../../assets/images/Trophee.webp"
+import image6 from "../../assets/images/backstage.webp"
+import image7 from "../../assets/images/conference_dignitas.webp"
 
 
 

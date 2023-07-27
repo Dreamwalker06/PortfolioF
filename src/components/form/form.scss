@@ -103,5 +103,8 @@ input:focus , textarea:focus {
     .form-container button {
         width: 80%;
     }
-
+    .form_email_sent {
+        border: 1px solid black;
+        width: 80%;
+    }
 }

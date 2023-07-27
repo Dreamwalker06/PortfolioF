@@ -22,7 +22,7 @@
     justify-content: center;
     z-index: 9999;
      background-color: RGB(51, 51, 51); 
-  /*   background-color: RGB(1, 17, 32); */
+
     padding: 0px 50px;
 
    
@@ -46,6 +46,14 @@
   background-color: #f0f0f0; /* Couleur de fond au survol */
   color: RGB(51, 51, 51); /* Couleur du texte au survol */
   transition: 0.5s ease-in-out;
+}
+
+.nav_item.active {
+  // Styles spécifiques lorsque l'élément est actif
+  background-color: #007bff; // Exemple: couleur de fond bleue
+  color: #fff; // Exemple: couleur du texte blanc
+  font-weight: bold; // Exemple: texte en gras
+  // Ajoutez d'autres styles selon vos besoins
 }
 
 @media (max-width: 1070px) {
