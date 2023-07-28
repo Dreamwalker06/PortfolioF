@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-
+      {/* 
       <p
         style={{
           marginTop: "100px",
@@ -20,7 +20,7 @@ const Home = () => {
         }}
       >
         En cours de développement
-      </p>
+      </p> */}
 
       <Presentation />
       <Projects />
