@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioF/static/css/main.a74af923.css",
-    "main.js": "/PortfolioF/static/js/main.b0958b32.js",
+    "main.css": "/PortfolioF/static/css/main.1aead20e.css",
+    "main.js": "/PortfolioF/static/js/main.8776c62d.js",
     "static/media/SophieBluel_1.webp": "/PortfolioF/static/media/SophieBluel_1.a71d766d0a16fd7fb13b.webp",
     "static/media/LOGO-Kasa.webp": "/PortfolioF/static/media/LOGO-Kasa.bf7dd84884e5cd91b7e0.webp",
     "static/media/MonVieuxGrimoire_1.webp": "/PortfolioF/static/media/MonVieuxGrimoire_1.d1af40dfdb66287d056d.webp",
@@ -31,11 +31,11 @@
     "static/media/Booki_modal_1.webp": "/PortfolioF/static/media/Booki_modal_1.04db40183c4ba05d18b0.webp",
     "static/media/HTML5_1Color_Black.svg": "/PortfolioF/static/media/HTML5_1Color_Black.32e08942af64ba22f265488f000a5f8b.svg",
     "index.html": "/PortfolioF/index.html",
-    "main.a74af923.css.map": "/PortfolioF/static/css/main.a74af923.css.map",
-    "main.b0958b32.js.map": "/PortfolioF/static/js/main.b0958b32.js.map"
+    "main.1aead20e.css.map": "/PortfolioF/static/css/main.1aead20e.css.map",
+    "main.8776c62d.js.map": "/PortfolioF/static/js/main.8776c62d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a74af923.css",
-    "static/js/main.b0958b32.js"
+    "static/css/main.1aead20e.css",
+    "static/js/main.8776c62d.js"
   ]
 }
