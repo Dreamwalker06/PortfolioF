@@ -76,7 +76,8 @@ const Projects = () => {
     modalImage1={Kasa1} modalImage2={Kasa2} modalImage3={Kasa3}
     link_projet="https://dreamwalker06.github.io/P6Final/"
     buttonClass="button_kasa_visit"
-    externalLink="https://dreamwalker06.github.io/P6Final/" />
+    externalLink="https://dreamwalker06.github.io/P6Final/"
+    textProjet={"Initiation à React, manipulation de données."}  />
   )}
   {filterCards(<Cards image={Grimoire} technologies={["Node"]} />) && (
     <Cards title ="Mon Vieux Grimoire - Réalisation du back-end" 
@@ -87,7 +88,8 @@ const Projects = () => {
      textHover={`Mon Vieux Grimoire.\n\nRéalisation du back-end`}
      image={Grimoire} technologies={["Node"]} 
      modalImage1={Grimoire1} modalImage2={Grimoire2}
-     buttonClass="button_grimoire_visit" />
+     buttonClass="button_grimoire_visit"
+     textProjet={"Initiation au back-end."} />
      
   )}
     {filterCards(<Cards image={SophieBluel} technologies={["Javascript"]} />) && (
@@ -100,6 +102,7 @@ const Projects = () => {
     image={SophieBluel} technologies={["Javascript"]}
     modalImage1={Sophie1} modalImage2={Sophie2}
     buttonClass="button_sophie_visit"
+    textProjet={"Initiation à Javascript très difficile."} 
      /> 
     
  )}
@@ -114,7 +117,8 @@ const Projects = () => {
     modalImage1={Booki1} modalImage2={Booki2} 
     link_projet="https://dreamwalker06.github.io/p2final/"
     buttonClass="button_booki_visit" 
-    externalLink="https://dreamwalker06.github.io/p2final/"/>
+    externalLink="https://dreamwalker06.github.io/p2final/"
+    textProjet={"Difficulté à selectionner le bon selecteur, utilisation de Flexbox et positionnement absolute."} />
       )}
           {filterCards(<Cards image={Nina}  />) && (
     <Cards title ="Nina Carducci - Optimisation du site" 
@@ -126,7 +130,8 @@ const Projects = () => {
      Optimisation & Référencement.`}
     image={Nina}
     buttonClass="button_nina_visit" 
-    externalLink="https://dreamwalker06.github.io/P5F/" />
+    externalLink="https://dreamwalker06.github.io/P5F/"
+    textProjet={"Greencode. Aucune connaissance d'optimisation, facile mais long et fastidieux."}  />
       )}
 </div>
       </div>

@@ -3,7 +3,7 @@ import './cards.scss';
 
 
 
-const Cards = ({ externalLink, buttonClass, image, link_projet, title, mission, technology, technology2, technology3, modalImage1, modalImage2, modalImage3, introductionImage, textHover }) => {
+const Cards = ({ textProjet, externalLink, buttonClass, image, link_projet, title, mission, technology, technology2, technology3, modalImage1, modalImage2, modalImage3, introductionImage, textHover }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const modalRef = useRef(null);
 
@@ -76,7 +76,9 @@ const Cards = ({ externalLink, buttonClass, image, link_projet, title, mission, 
                 </button>
               )}
             </div>
+   
             </div>
+             <p className='problematique_text'>Problèmatique : {textProjet}</p>
             <div className="modal_gallery">
            
             <img src={modalImage1}  alt = ""  />
