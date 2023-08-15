@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PortfolioF/static/css/main.055f51ca.css",
-    "main.js": "/PortfolioF/static/js/main.e6ac67ed.js",
+    "main.js": "/PortfolioF/static/js/main.d7417658.js",
     "static/media/SophieBluel_1.webp": "/PortfolioF/static/media/SophieBluel_1.a71d766d0a16fd7fb13b.webp",
     "static/media/LOGO-Kasa.webp": "/PortfolioF/static/media/LOGO-Kasa.bf7dd84884e5cd91b7e0.webp",
     "static/media/MonVieuxGrimoire_1.webp": "/PortfolioF/static/media/MonVieuxGrimoire_1.d1af40dfdb66287d056d.webp",
     "static/media/Dignitas_champion_3.webp": "/PortfolioF/static/media/Dignitas_champion_3.c48ae92f0ef9219af8c2.webp",
     "static/media/Dignitas_champion_2.webp": "/PortfolioF/static/media/Dignitas_champion_2.a48ce9cc79b31034299d.webp",
     "static/media/kasa-composants.webp": "/PortfolioF/static/media/kasa-composants.3cde4d26dc53c9b1e23d.webp",
-    "static/media/CV_TRINH_Jerome.pdf": "/PortfolioF/static/media/CV_TRINH_Jerome.6d1f83f2533c3c1c5fb4.pdf",
+    "static/media/CV_TRINH_Jerome.pdf": "/PortfolioF/static/media/CV_TRINH_Jerome.1ea6098ccc69419422e6.pdf",
     "static/media/Nina_carducci.webp": "/PortfolioF/static/media/Nina_carducci.c715a0d7e1194ab419c0.webp",
     "static/media/backstage.webp": "/PortfolioF/static/media/backstage.4289fedf02b79f8680f6.webp",
     "static/media/SophieBluel_2.webp": "/PortfolioF/static/media/SophieBluel_2.30013ce71424e3128419.webp",
@@ -32,10 +32,10 @@
     "static/media/HTML5_1Color_Black.svg": "/PortfolioF/static/media/HTML5_1Color_Black.32e08942af64ba22f265488f000a5f8b.svg",
     "index.html": "/PortfolioF/index.html",
     "main.055f51ca.css.map": "/PortfolioF/static/css/main.055f51ca.css.map",
-    "main.e6ac67ed.js.map": "/PortfolioF/static/js/main.e6ac67ed.js.map"
+    "main.d7417658.js.map": "/PortfolioF/static/js/main.d7417658.js.map"
   },
   "entrypoints": [
     "static/css/main.055f51ca.css",
-    "static/js/main.e6ac67ed.js"
+    "static/js/main.d7417658.js"
   ]
 }
